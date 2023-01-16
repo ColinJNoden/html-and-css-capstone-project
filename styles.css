@@ -1,0 +1,159 @@
+/* CSS HEX
+--chartreuse-traditional: #e6f619ff;
+--middle-blue: #68bfd0ff;
+--platinum: #e9e8e8ff;
+--russet: #7b461aff;
+--blue-ncs: #3686a6ff;
+--dark-blue: #015CA8;
+*/
+
+@font-face {
+    font-family: spongebob;
+    src: url('/Users/colinnoden/aa-projects/html-and-css-capstone-project/fonts/spongebob.ttf');
+}
+
+h1 {
+    font-family: spongebob;
+    text-align: center;
+    color: #7b461aff;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: spongebob;
+    color: #015CA8;
+    font-size: 50px;
+    text-shadow: 2px 2px #e6f619ff ;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(./images/sb_background_2.png);
+    background-color: #cccccc;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #e6f619ff;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: spongebob;
+    color: #015CA8;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 90%;
+    margin: auto;
+    overflow-wrap: normal;
+    padding: 15px 15px 15px 15px;
+}
+
+.galImage {
+    max-width: 400px;
+}
+
+#mainimg {
+    display: flex;
+    justify-content: center;
+}
+
+#gang {
+    border-style: ridge;
+}
+
+.homepage_text {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.homepage_text h2 {
+    margin-left: 80px;
+}
+
+.homecontent {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(240, 248, 255, 0.2);
+    box-shadow: 5px;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+
+fieldset {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(233, 232, 232, 0.2);
+    height: 80%;
+    font-family: spongebob;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.formItem {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#submit_button {
+    width: 120px;
+    height: 40px;
+    background-color: #015CA8;
+    font-family: spongebob;
+    font-size: 25px;
+    color: white;
+
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.moreLinks {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: spongebob;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.moreLinks a  {
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.moreLinks li {
+    padding-top: 15px;
+}
+
+
+.gallerySection{
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 15px 15px;
+}
